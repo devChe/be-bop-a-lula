@@ -5,8 +5,6 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/be-bop-a-lula",
   images: { unoptimized: true },
-  cacheComponents: true,
-  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
