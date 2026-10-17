@@ -6,13 +6,13 @@
  */
 
 export const site = {
-  name: "Your Name", // PLACEHOLDER: your full name
+  name: "Steve Eugenio", // PLACEHOLDER: your full name
   role: "Full Stack Developer",
   location: "Philippines",
-  url: "https://your-domain.example", // PLACEHOLDER: deployed URL (used for SEO / Open Graph)
-  email: "you@example.com", // PLACEHOLDER
-  photo: "", // PLACEHOLDER: e.g. "/me.jpg" (put the file in /public). Empty shows initials.
-  resume: "#", // PLACEHOLDER: e.g. "/resume.pdf"
+  url: "https://devche.github.io/be-bop-a-lula/", // PLACEHOLDER: deployed URL (used for SEO / Open Graph)
+  email: "stevenson.manglicmot.eugenio@gmail.com", // PLACEHOLDER
+  photo: "stevejobs.jpg", // PLACEHOLDER: e.g. "/me.jpg" (put the file in /public). Empty shows initials.
+  resume: "", // PLACEHOLDER: e.g. "/resume.pdf"
   headline: "I build fast, polished web apps people actually enjoy using.",
   subheadline:
     "Philippines-based full stack developer shipping AI-powered platforms, voting apps and storefronts with Next.js, React and Tailwind.",
@@ -27,8 +27,8 @@ export const site = {
     { label: "Featured projects", value: "4" },
   ],
   socials: [
-    { label: "GitHub", href: "https://github.com/your-handle" }, // PLACEHOLDER
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/your-handle" }, // PLACEHOLDER
+    { label: "GitHub", href: "https://github.com/devChe" }, // PLACEHOLDER
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/stevenson-eugenio-6ba39118b/n ./" }, // PLACEHOLDER
   ],
 };
 
