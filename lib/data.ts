@@ -12,17 +12,17 @@ export const site = {
   url: "https://devche.github.io/be-bop-a-lula/", // PLACEHOLDER: deployed URL (used for SEO / Open Graph)
   email: "stevenson.manglicmot.eugenio@gmail.com", // PLACEHOLDER
   photo: "stevejobs.jpg", // PLACEHOLDER: e.g. "/me.jpg" (put the file in /public). Empty shows initials.
-  resume: "", // PLACEHOLDER: e.g. "/resume.pdf"
+  resume: "/resume.pdf", // PLACEHOLDER: e.g. "/resume.pdf"
   headline: "I build fast, polished web apps people actually enjoy using.",
   subheadline:
-    "Philippines-based full stack developer shipping AI-powered platforms, voting apps and storefronts with Next.js, React and Tailwind.",
+    "Coding things from scratch while bringing ideas to life in the browser makes me love being a developer.",
   about: [
     "I'm a web developer based in the Philippines with experience across front-end, full-stack and product-page work. I like turning designs and rough ideas into clean, responsive, search-friendly products.",
     "Recently I've been building an AI-generated web-app platform with Next.js, Tailwind and MongoDB, and before that a ranking and voting app on Firebase. I'm equally at home optimizing a Shopify page, setting up WordPress with SEO in mind, or crafting emails and sites from PSD designs.",
-    "I'm fluent in English and Tagalog, and I enjoy collaborating with teams across time zones.",
+    "I'm fluent in Tagalog and average in English, and I enjoy collaborating with teams across time zones.",
   ],
   stats: [
-    { label: "Years building the web", value: "3+" }, // PLACEHOLDER: adjust to your real number
+    { label: "Years building the web", value: "6" }, // PLACEHOLDER: adjust to your real number
     { label: "Languages spoken", value: "2" },
     { label: "Featured projects", value: "4" },
   ],
@@ -51,25 +51,113 @@ export const languages = ["English", "Tagalog"];
 
 export const experience = [
   {
-    company: "Tagpros",
-    period: "2024 – 2026",
-    role: "Full Stack Developer", // PLACEHOLDER: confirm exact job title
-    summary: "Worked on an AI-generated web-app platform.",
-    stack: ["Next.js", "Tailwind", "MongoDB", "Vercel"],
-  },
-  {
-    company: "KJC eSports",
-    period: "2023 – 2024",
-    role: "Web Developer", // PLACEHOLDER: confirm exact job title
-    summary: "Built a ranking and voting app.",
-    stack: ["Next.js", "React", "Tailwind", "Vercel", "Firebase Firestore"],
+    company: "Tagpros Education OPC",
+    period: "February 2024 – September 2026",
+    role: "Web Developer",
+    summary: "Built and developed an AI-generated web app platform.",
+    stack: ["Next.js", "Tailwind CSS", "MongoDB", "Vercel"],
   },
   {
     company: "Tiweb",
-    period: "2023 – 2024",
-    role: "Shopify Developer", // PLACEHOLDER: confirm exact job title
-    summary: "Shopify product listing and page optimization.",
-    stack: ["Shopify", "Liquid"],
+    period: "June 2023 – December 2024",
+    role: "Product Lister",
+    summary: "Handled product listings and optimized product pages.",
+    stack: ["Shopify", "POKY", "ChatGPT"],
+  },
+  {
+    company: "KJC eSports",
+    period: "July 2023 – February 2024",
+    role: "Full-Stack Web Developer (Project-Based)",
+    summary: "Built a ranking and voting web application.",
+    stack: [
+      "Next.js",
+      "React.js",
+      "Vercel",
+      "Tailwind CSS",
+      "Firebase Firestore",
+    ],
+  },
+  {
+    company: "Applyflow",
+    period: "January 2023 – July 2023",
+    role: "Product Page Developer",
+    summary: "Built individual product pages and customized website themes.",
+    stack: [
+      "WordPress",
+      "SASS",
+      "Beaver Builder",
+      "Shopify",
+      "Liquid",
+    ],
+  },
+  {
+    company: "TranscribeDirect",
+    period: "October 2022 – January 2023",
+    role: "Front-end Developer",
+    summary: "Built a portal and implemented ClickFunnels pages.",
+    stack: ["React.js", "Next.js", "Tailwind CSS", "AWS Lambda"],
+  },
+  {
+    company: "Abseil Pro",
+    period: "January 2022 – May 2023",
+    role: "System App Developer (Project-Based)",
+    summary: "Built a management system application for the company.",
+    stack: ["React.js", "Next.js", "Firebase", "Vercel"],
+  },
+  {
+    company: "Fielding Marshall",
+    period: "July 2021 – January 2022",
+    role: "Web Developer",
+    summary: "Created websites from scratch and converted PSD designs into HTML.",
+    stack: [
+      "React.js",
+      "Next.js",
+      "Webflow",
+      "Bootstrap",
+      "Sanity.io",
+      "WP GraphQL",
+    ],
+  },
+  {
+    company: "Next Gear Media Inc.",
+    period: "March 2020 – December 2021",
+    role: "WordPress Developer",
+    summary: "Built individual website pages, handled SEO, and implemented social media content strategies.",
+    stack: [
+      "WordPress",
+      "Tagdiv",
+      "Newspaper Theme",
+      "HTML",
+      "CSS",
+    ],
+  },
+  {
+    company: "Aglaia Realty & Dev't Corp.",
+    period: "January 2020 – December 2020",
+    role: "Email Developer and Social Media Manager",
+    summary: "Built email templates from scratch and managed social media activities.",
+    stack: [
+      "HTML",
+      "CSS",
+      "Email on Acid",
+      "Litmus",
+      "Putsmail",
+      "Hootsuite",
+    ],
+  },
+  {
+    company: "Dodeca Drone Inc.",
+    period: "August 2019 – December 2019",
+    role: "Front End Web Developer",
+    summary: "Converted PSD designs into HTML.",
+    stack: ["React.js", "Next.js", "Firebase"],
+  },
+  {
+    company: "Asian Psychological Services & Assessment Inc.",
+    period: "July 2006 – July 2019",
+    role: "Data Entry Specialist",
+    summary: "Converted hardcopy data into electronic formats and implemented internal ISO audits.",
+    stack: ["Remark OMR", "MS Word", "Excel", "Access"],
   },
 ];
 
@@ -82,31 +170,38 @@ export const otherWork = [
 
 export const projects = [
   {
-    title: "Usenet Reviewz",
-    description: "A review site project from my portfolio.", // PLACEHOLDER: refine description
-    tags: ["Web"], // PLACEHOLDER
-    href: "https://example.com/usenet-reviewz", // PLACEHOLDER: use real link from resume
-    image: "", // PLACEHOLDER: screenshot e.g. "/projects/usenet-reviewz.png"
+    title: "GabAI",
+    description: "An AI-Powered Teacher Guide and Partner Developed by Filipino Teachers for Filipino Teachers", // PLACEHOLDER: refine description
+    tags: ["Web", "OpenAI", "Gemini", "NextJs", "Tailwind", "MongoDB", "Vercel", "Hitpay"], // PLACEHOLDER
+    href: "https://gabai.tagpros.us/", // PLACEHOLDER: use real link from resume
+    image: "/projects/gabai.png", // PLACEHOLDER: screenshot e.g. "/projects/usenet-reviewz.png"
   },
   {
-    title: "Best NZB Sites",
-    description: "A comparison and listing site project.", // PLACEHOLDER
-    tags: ["Web"], // PLACEHOLDER
-    href: "https://example.com/best-nzb-sites", // PLACEHOLDER
-    image: "",
+    title: "Tagpros CPD",
+    description: "AI Training program for professional development.", // PLACEHOLDER
+    tags: ["Web", "NextJs", "Tailwind", "MongoDB", "Vercel", "Hitpay"], // PLACEHOLDER
+    href: "https://www.tagpros.com.ph/", // PLACEHOLDER
+    image: "/projects/cpd.png",
   },
   {
-    title: "Tinds",
-    description: "A web project from my portfolio.", // PLACEHOLDER
-    tags: ["Web"], // PLACEHOLDER
-    href: "https://example.com/tinds", // PLACEHOLDER
-    image: "",
+    title: "Votedaily",
+    description: "A web project for daily voting.", // PLACEHOLDER
+    tags: ["Web", "NextJs", "Tailwind", "Supabase", "Vercel"], // PLACEHOLDER
+    href: "https://votedaily.vercel.app/", // PLACEHOLDER
+    image: "/projects/votedaily.png",
   },
   {
-    title: "Keystream",
-    description: "A web project from my portfolio.", // PLACEHOLDER
-    tags: ["Web"], // PLACEHOLDER
-    href: "https://example.com/keystream", // PLACEHOLDER
-    image: "",
+    title: "KJC eSports",
+    description: "KJC eSports is a gaming and esports website featuring gaming news, tournament updates, game reviews, and guides, designed to provide an engaging experience for gaming enthusiasts.", // PLACEHOLDER
+    tags: ["Web", "Wordpress", "SEO"], // PLACEHOLDER
+    href: "https://www.kjcesports.com/", // PLACEHOLDER
+    image: "/projects/kjc.png",
+  },
+  {
+    title: "USENET Reviewz",
+    description: "UsenetReviewz’s NZB Sites page provides reviews, rankings, and comparisons of popular NZB indexers, helping users find suitable Usenet search and download platforms based on features, pricing, and membership options.", // PLACEHOLDER
+    tags: ["Web", "HTML", "CSS", "SEO"], // PLACEHOLDER
+    href: "https://usenetreviewz.com/nzb-sites/", // PLACEHOLDER
+    image: "/projects/usenet.png",
   },
 ];

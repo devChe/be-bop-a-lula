@@ -31,14 +31,14 @@ export default function Experience() {
           </li>
         ))}
       </ol>
-      <Reveal className="mt-12">
+      {/* <Reveal className="mt-12">
         <h3 className="mb-3 font-mono text-sm uppercase tracking-widest text-accent">Other work</h3>
         <ul className="list-inside list-disc space-y-1 text-muted">
           {otherWork.map((w) => (
             <li key={w}>{w}</li>
           ))}
         </ul>
-      </Reveal>
+      </Reveal> */}
     </section>
   );
 }

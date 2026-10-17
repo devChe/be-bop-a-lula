@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/be-bop-a-lula",
+  basePath: process.env.NODE_ENV === "production" ? "/be-bop-a-lula" : "",
   images: { unoptimized: true },
   turbopack: {
     rules: {
