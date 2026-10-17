@@ -26,6 +26,26 @@ export default function Hero() {
       />
       <div aria-hidden className="absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]" />
 
+      {/* Code screenshot: full-bleed and faint on mobile, right-side and fading into the page on desktop */}
+      <motion.div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)] lg:left-auto lg:w-[58%] lg:[mask-image:radial-gradient(ellipse_80%_70%_at_70%_50%,black_35%,transparent_75%)]"
+        initial={{ opacity: 0, x: 60 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.4, ease: "easeOut" }}
+      >
+        <div className="absolute inset-0 opacity-20 lg:opacity-60">
+          <motion.div
+            className="absolute inset-0 bg-cover bg-center brightness-75 saturate-[1.1]"
+            style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH}/projects/hero-background.jpg)` }}
+            animate={{ scale: [1.05, 1.15, 1.05] }}
+            transition={{ duration: 30, repeat: Infinity, ease: "easeInOut" }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-accent/15 via-transparent to-fuchsia-500/15 mix-blend-overlay" />
+          <div className="absolute inset-0 bg-[repeating-linear-gradient(to_bottom,transparent_0,transparent_3px,rgba(0,0,0,0.25)_3px,rgba(0,0,0,0.25)_4px)]" />
+        </div>
+      </motion.div>
+
       <motion.div variants={container} initial="hidden" animate="show" className="relative mx-auto w-full max-w-6xl">
         <motion.p variants={item} className="font-mono text-sm text-accent">
           Hi, I&apos;m {site.name} 👋

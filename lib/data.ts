@@ -204,4 +204,11 @@ export const projects = [
     href: "https://usenetreviewz.com/nzb-sites/", // PLACEHOLDER
     image: "projects/usenet.png",
   },
+  {
+    title: "Tinds.com",
+    description: "Tinds.com is a vibrant online platform dedicated to uplifting and celebrating the global South Asian community. ", // PLACEHOLDER
+    tags: ["Web", "WordPress", "SEO"], // PLACEHOLDER
+    href: "https://tinds.com", // PLACEHOLDER
+    image: "projects/tinds.png",
+  },
 ];

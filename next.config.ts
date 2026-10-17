@@ -1,9 +1,12 @@
 import type { NextConfig } from "next";
 
+const basePath = process.env.NODE_ENV === "production" ? "/be-bop-a-lula" : "";
+
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: process.env.NODE_ENV === "production" ? "/be-bop-a-lula" : "",
+  basePath,
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
   images: { unoptimized: true },
   turbopack: {
     rules: {
