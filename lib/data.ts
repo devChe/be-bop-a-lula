@@ -174,34 +174,34 @@ export const projects = [
     description: "An AI-Powered Teacher Guide and Partner Developed by Filipino Teachers for Filipino Teachers", // PLACEHOLDER: refine description
     tags: ["Web", "OpenAI", "Gemini", "NextJs", "Tailwind", "MongoDB", "Vercel", "Hitpay"], // PLACEHOLDER
     href: "https://gabai.tagpros.us/", // PLACEHOLDER: use real link from resume
-    image: "/projects/gabai.png", // PLACEHOLDER: screenshot e.g. "/projects/usenet-reviewz.png"
+    image: "projects/gabai.png", // PLACEHOLDER: screenshot e.g. "projects/usenet-reviewz.png"
   },
   {
     title: "Tagpros CPD",
     description: "AI Training program for professional development.", // PLACEHOLDER
     tags: ["Web", "NextJs", "Tailwind", "MongoDB", "Vercel", "Hitpay"], // PLACEHOLDER
     href: "https://www.tagpros.com.ph/", // PLACEHOLDER
-    image: "/projects/cpd.png",
+    image: "projects/cpd.png",
   },
   {
     title: "Votedaily",
     description: "A web project for daily voting.", // PLACEHOLDER
     tags: ["Web", "NextJs", "Tailwind", "Supabase", "Vercel"], // PLACEHOLDER
     href: "https://votedaily.vercel.app/", // PLACEHOLDER
-    image: "/projects/votedaily.png",
+    image: "projects/votedaily.png",
   },
   {
     title: "KJC eSports",
     description: "KJC eSports is a gaming and esports website featuring gaming news, tournament updates, game reviews, and guides, designed to provide an engaging experience for gaming enthusiasts.", // PLACEHOLDER
     tags: ["Web", "Wordpress", "SEO"], // PLACEHOLDER
     href: "https://www.kjcesports.com/", // PLACEHOLDER
-    image: "/projects/kjc.png",
+    image: "projects/kjc.png",
   },
   {
     title: "USENET Reviewz",
     description: "UsenetReviewz’s NZB Sites page provides reviews, rankings, and comparisons of popular NZB indexers, helping users find suitable Usenet search and download platforms based on features, pricing, and membership options.", // PLACEHOLDER
     tags: ["Web", "HTML", "CSS", "SEO"], // PLACEHOLDER
     href: "https://usenetreviewz.com/nzb-sites/", // PLACEHOLDER
-    image: "/projects/usenet.png",
+    image: "projects/usenet.png",
   },
 ];
