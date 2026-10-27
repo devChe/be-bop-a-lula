@@ -54,7 +54,7 @@ export const experience = [
     company: "Bless AD Final",
     period: "September 2024 – Present",
     role: "Front-End Developer (Consultant)",
-    summary: "Built and developed an AI-generated web app platform.",
+    summary: "Built and cloned Landing Pages",
     stack: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
