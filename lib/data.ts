@@ -51,11 +51,18 @@ export const languages = ["English", "Tagalog"];
 
 export const experience = [
   {
+    company: "Bless AD Final",
+    period: "September 2024 – Present",
+    role: "Front-End Developer (Consultant)",
+    summary: "Built and developed an AI-generated web app platform.",
+    stack: ["HTML", "CSS", "JavaScript", "PHP"],
+  },
+  {
     company: "Tagpros Education OPC",
     period: "February 2024 – September 2026",
-    role: "Web Developer",
+    role: "Software Engineer",
     summary: "Built and developed an AI-generated web app platform.",
-    stack: ["Next.js", "Tailwind CSS", "MongoDB", "Vercel"],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Vercel"],
   },
   {
     company: "Tiweb",
